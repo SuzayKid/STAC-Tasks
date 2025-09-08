@@ -2,7 +2,7 @@ mkdir -p Imgs
 mkdir -p Docs
 mkdir -p Music
 mkdir -p Misc
-for f in *.* ; do
+for f in ./*; do
     if $f == $0 ]; then
         continue
     fi
@@ -15,5 +15,5 @@ for f in *.* ; do
     if $f in .mp3 .wav .opus .m4a; then
         mv "$f" ./music/
     fi
-    mv "$f" ./Misc/
+    mv "$f" ./misc/
 done
