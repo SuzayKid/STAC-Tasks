@@ -7,13 +7,15 @@ for f in *.* ; do
         continue
     fi
     if $f in .jpg .jpeg .png .heic .webp; then
-        mv "$f" ./images/
+        mv "$f" ./Images/
     fi
     if $f in .pdf .docx .txt .md; then
-        mv "$f" ./docs/
+        mv "$f" ./Docs/
     fi
     if $f in .mp3 .wav .opus .m4a; then
-        mv "$f" ./music/
+        mv "$f" ./Music/
     fi
-    mv "$f" ./Misc/
+    else
+        mv "$f" ./Misc/
+    fi
 done
