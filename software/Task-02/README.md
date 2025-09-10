@@ -20,3 +20,4 @@ the INShorts api isnt working so i went to the same github public apis and found
     not all apis work and test them before using
 # Screenshots if applicable
 ![Image showing the filter selection of jokesapi.dev](image.png)
+![Screenshot Showing How it works irl](image-1.png)
